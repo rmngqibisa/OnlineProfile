@@ -5,51 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- SEO Meta Tags - EDIT THESE -->
-    <meta name="description" content="A professional portfolio template for developers, designers, and creative professionals. Showcase your work and skills.">
-    <meta name="keywords" content="portfolio, template, developer, designer, resume, cv">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A premium 3D professional portfolio template.">
+    <meta name="keywords" content="portfolio, 3d, dark mode, developer, designer">
     <meta name="author" content="Your Name">
 
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://yourwebsite.com/">
-    <meta property="og:title" content="Your Name - Professional Portfolio">
-    <meta property="og:description" content="Showcase your work and skills with this professional portfolio.">
+    <meta property="og:title" content="Your Name - 3D Portfolio">
+    <meta property="og:description" content="Premium professional portfolio with 3D interactions.">
     <meta property="og:image" content="https://api.dicebear.com/9.x/avataaars/svg?seed=Professional">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://yourwebsite.com/">
-    <meta property="twitter:title" content="Your Name - Professional Portfolio">
-    <meta property="twitter:description" content="Showcase your work and skills with this professional portfolio.">
-    <meta property="twitter:image" content="https://api.dicebear.com/9.x/avataaars/svg?seed=Professional">
-
-    <title>Your Name - Portfolio</title>
+    <title>Your Name - 3D Portfolio</title>
 
     <link rel="shortcut icon" href="https://api.dicebear.com/9.x/avataaars/svg?seed=Professional" type="image/svg+xml">
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
+    <!-- Background Orbs (Decorative) -->
+    <div style="position:fixed; top:-10%; left:-10%; width:50%; height:50%; background:radial-gradient(circle, rgba(212,175,55,0.1), transparent 70%); z-index:-1; filter:blur(80px);"></div>
+    <div style="position:fixed; bottom:-10%; right:-10%; width:50%; height:50%; background:radial-gradient(circle, rgba(59,130,246,0.1), transparent 70%); z-index:-1; filter:blur(80px);"></div>
+
     <!-- Theme Toggle -->
-    <button id="theme-toggle" aria-label="Toggle Dark Mode">
-        <i class="fas fa-moon"></i>
+    <button id="theme-toggle" aria-label="Toggle Theme">
+        <i class="fas fa-sun"></i>
     </button>
 
     <header class="container">
         <div class="profile-header">
-            <div class="profile-image">
-                <!-- Avatar - Customize seed in URL -->
-                <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Professional" alt="Profile Picture">
+            <div class="profile-image-container">
+                <div class="profile-image">
+                    <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Professional" alt="Profile Picture">
+                </div>
             </div>
             <div class="profile-info">
                 <h1>Hi, I'm <span class="highlight">Your Name</span>.</h1>
-                <h2>Professional Title & Creative Problem Solver</h2>
+                <h2>Visionary Developer & Designer</h2>
                 <p class="bio">
-                    I am a dedicated professional with a passion for excellence. I specialize in delivering high-quality solutions, optimizing workflows, and creating value. I thrive in collaborative environments and am always eager to learn new technologies and methodologies.
+                    Crafting immersive digital experiences with code and creativity. I build scalable, high-performance solutions that leave a lasting impact.
                 </p>
                 <div class="social-links">
                     <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
@@ -63,76 +59,75 @@
 
     <main class="container">
         <section id="skills" class="section">
-            <h3 class="section-title">Core Competencies</h3>
+            <h3 class="section-title">Capabilities</h3>
             <div class="skills-grid">
-                <!-- Abstract Skills - Edit these -->
                 <div class="skill-card">
-                    <i class="fas fa-code"></i>
-                    <h4>Technical Proficiency</h4>
-                    <p>Expertise in modern frameworks, languages, and tools to build robust systems.</p>
+                    <i class="fas fa-cubes"></i>
+                    <h4>3D Architecture</h4>
+                    <p>Designing complex systems with depth and scalability in mind.</p>
                 </div>
                 <div class="skill-card">
-                    <i class="fas fa-lightbulb"></i>
-                    <h4>Strategic Planning</h4>
-                    <p>Ability to analyze complex problems and develop effective, long-term strategies.</p>
+                    <i class="fas fa-layer-group"></i>
+                    <h4>Full-Stack Dev</h4>
+                    <p>Seamless integration from the database to the pixel-perfect UI.</p>
                 </div>
                 <div class="skill-card">
-                    <i class="fas fa-users"></i>
-                    <h4>Team Leadership</h4>
-                    <p>Proven track record of leading diverse teams to achieve project goals efficiently.</p>
+                    <i class="fas fa-rocket"></i>
+                    <h4>Performance</h4>
+                    <p>Optimizing for speed and efficiency across all devices.</p>
                 </div>
                 <div class="skill-card">
-                    <i class="fas fa-chart-line"></i>
-                    <h4>Data Analysis</h4>
-                    <p>Interpreting data to drive decision-making and optimize business performance.</p>
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Security</h4>
+                    <p>Implementing robust security measures to protect data integrity.</p>
                 </div>
             </div>
         </section>
 
         <section id="awards" class="section">
-            <h3 class="section-title">Achievements</h3>
+            <h3 class="section-title">Milestones</h3>
             <ul class="awards-list">
                 <li>
-                    <span class="award-icon"><i class="fas fa-trophy"></i></span>
+                    <span class="award-icon"><i class="fas fa-crown"></i></span>
                     <div class="award-details">
-                        <strong>Industry Excellence Award</strong>
+                        <strong>Innovator of the Year</strong>
                         <span class="award-year">2023</span>
-                        <p>Recognized for outstanding contribution to the field of innovation.</p>
+                        <p>Awarded for groundbreaking work in interactive web design.</p>
                     </div>
                 </li>
                 <li>
-                    <span class="award-icon"><i class="fas fa-medal"></i></span>
+                    <span class="award-icon"><i class="fas fa-star"></i></span>
                     <div class="award-details">
-                        <strong>Leadership Recognition</strong>
-                        <span class="award-year">2021</span>
-                        <p>Awarded for exceptional leadership and community impact.</p>
+                        <strong>Top Open Source Contributor</strong>
+                        <span class="award-year">2022</span>
+                        <p>Recognized for significant contributions to the developer community.</p>
                     </div>
                 </li>
             </ul>
         </section>
 
         <section id="contact" class="section">
-            <h3 class="section-title">Get In Touch</h3>
+            <h3 class="section-title">Connect</h3>
             <form class="contact-form" action="#" method="post">
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
                 </div>
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" placeholder="How can we work together?" required></textarea>
+                    <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
                 </div>
-                <button type="submit" class="btn-primary">Send Message</button>
+                <button type="submit" class="btn-primary">Initialize Contact</button>
             </form>
         </section>
     </main>
 
     <footer class="footer">
-        <p>&copy; <span id="year"></span> <a href="#">Your Name</a>. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> <a href="#">Your Name</a>. Crafted with precision.</p>
         <p class="credits">Template by <a href="https://github.com/rmngqibisa" target="_blank">@rmngqibisa</a></p>
     </footer>
 
