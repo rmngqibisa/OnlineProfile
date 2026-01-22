@@ -55,7 +55,7 @@ Modify the HTML content inside the `<section id="skills">` and `<section id="awa
 This template is ready for **GitHub Pages**.
 1.  Go to your repository **Settings**.
 2.  Navigate to **Pages**.
-3.  Select `main` (or `master`) branch as the source.
+3.  Select `main` branch as the source.
 4.  Save!
 
 ## Contributing
