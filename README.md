@@ -17,7 +17,7 @@ A clean, modern, and open-source portfolio template designed for professionals. 
 1.  **Fork this repository.**
 2.  **Clone it locally:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/portfolio-template.git
+    git clone https://github.com/rmngqibisa/OnlineProfile.git
     ```
 3.  **Open `index.html`** in your browser to preview.
 
