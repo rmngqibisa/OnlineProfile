@@ -17,7 +17,7 @@ A clean, modern, and open-source portfolio template designed for professionals. 
 1.  **Fork this repository.**
 2.  **Clone it locally:**
     ```bash
-    git clone https://github.com/rmngqibisa/OnlineProfile.git
+    git clone https://github.com/LehlohonoloHope/OnlineProfile.git
     ```
 3.  **Open `index.html`** in your browser to preview.
 
@@ -68,6 +68,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Credits
 
--   Template maintained by [@rmngqibisa](https://github.com/rmngqibisa).
+-   Template maintained by [@LehlohonoloHope](https://github.com/LehlohonoloHope).
 -   Icons by [Font Awesome](https://fontawesome.com).
 -   Avatars by [Dicebear](https://dicebear.com).
